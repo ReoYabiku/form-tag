@@ -1,0 +1,14 @@
+{
+  "name": "html-form",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./script/main.ts --outdir ./dist",
+    "start": "serve -l 8000 ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
